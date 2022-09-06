@@ -1,7 +1,4 @@
-<script src="/wp-content/themes/div-child/js/owl.carousel.min.js"></script>
 
-<script type="text/javascript">
-	
 	jQuery(document).scroll(function() {
 		var scrollheight = ( ( jQuery(".et-l--header").outerHeight() ) + ( jQuery("#banner_section").outerHeight() ) );
 		var scrollheightA = jQuery("#banner_section").outerHeight();
@@ -34,6 +31,7 @@
 		}
 		
 	});
+
 	/* Sticky Header */
 	jQuery(document).scroll(function() {
 		if (jQuery(window).width() <= 980) {
@@ -443,5 +441,3 @@
 		});
 		
 	});
-	
-</script>
